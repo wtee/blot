@@ -1,0 +1,149 @@
+/*--- BEGIN: reset ---*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+pre,
+code,
+address,
+variable,
+form,
+fieldset,
+blockquote {
+  padding:0;
+  margin:0;
+  font-size:100%;
+  font-weight:normal;
+}
+
+ol,
+ul {
+  list-style:none;
+}
+
+/*--- END: reset ---*/
+/*--- BEGIN: typography ---*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:"Bookman Old Style", serif;
+  font-weight:bolder;
+}
+
+h1 {
+  font-size:2em;
+}
+
+h2 {
+  font-size:1.75em;
+}
+
+h3 {
+  font-size:1.5em;
+}
+
+h4 { 
+  font-size:1.25em;
+}
+
+p,
+ol,
+ul {
+  /*font-family:Georgia, serif;*/
+  font-family:Courier, monospace;
+}
+pre,
+code {
+  font-family:Courier monospace;
+}
+
+blockquote {
+  font-family:"Bookman Old Style", serif;
+  font-size:1.25em;
+}
+
+/*--- END: typography ---*/
+/*--- BEGIN: layout ---*/
+
+h2 {
+  margin-top:0.25em;
+}
+
+h3 {
+  border-top:solid 0.5em #380096;
+  padding:0.5em;
+  margin-top:0.25em;
+}
+
+h4 {
+  border-bottom:solid 0.25em #ed0091;
+  margin:0.5em;
+}
+
+p {
+  padding:0.5em 1em 0.5em 1em;
+}
+
+ol,
+ul {
+  margin:0.25em 1.5em 0.25em 3.5em;
+  list-style:square;
+}
+
+blockquote {
+  margin:0.5em;
+}
+
+img {
+  border:solid 2px #380096;
+}
+
+/*--- END: layout---*/
+/*--- BEGIN: color ---*/
+
+body {
+  background-color:#e8e2d6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+code {
+  color:#3d3028;
+}
+
+a {
+  color:#3d3028;
+}
+
+a:visited {
+  color:#99897c;
+}
+
+a:hover,
+a:active {
+  color:#cec1b5;
+}
+
+blockquote {
+  color:#99897c;
+}
+
+/*--- END: color ---*/

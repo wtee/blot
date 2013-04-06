@@ -1,0 +1,38 @@
+blot -- a minimalist blog-engine in Bourne shell
+
+Goals:
+
+* Be the simplest, smallest, little blogging engine there is
+* Make Blosxom and nanoblogger look like bloatware
+* Reinvent the wheel for no good reason
+
+Features:
+
+* Format agnostic. Use whatever mark-up you want for your posts, tell
+  blot what parser to use and viola.
+* Valid, mobile-friendly HTML5.
+* In the public domain. Freer than free software. Use it. Abuse it.
+  It's yours. It's everybody's.
+
+blot's a script I wrote for fun, although I am actually using it on the
+Wild Wild Web. You probably shouldn't. But you can if you want.
+
+To install blot:
+
+1. Have a functioning, CGI-capable web server, that runs Linux or Unix.
+2. Move blot.cgi, your parser of choice, and optionally blot.css 
+   to the directory on that server you want to run them from.
+3. In that same directory create another directory to store your
+   blog posts.
+4. Edit the configuration variables in blot.cgi to fit your set up.
+5. Make sure your new directory, blot.cgi, your parser, and blot.css
+   have the correct owner and permissions to be run on your webserver.
+   This can generally be accomplished with commands similar to:
+     chown www:www blot.cgi blot.css md2html.awk blog/
+     chmod 755 blot.cgi blot.css md2html.awk blog/
+
+To use blot:
+
+1. Write a blog post.
+2. Put it in your blog directory.
+3. Make sure it has the right permissions and ownership.
